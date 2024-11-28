@@ -1,1 +1,4 @@
-# cyber
+# Cyber
+
+## Privilage Escalation
+linpeas
